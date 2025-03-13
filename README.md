@@ -7,10 +7,10 @@ To open it you just need to double click on the file proxmox-typer.ahk or conver
 
 You can use the buttons available in the script window, but the following keyboard shortcuts make it much faster to use:
 
-\<Ctrl\>+\<Shift\>+M" to open the window in which the text is copied. 
+```<Ctrl>+<Shift>+M``` to open the window in which the text is copied. 
 ```<Ctrl>+V``` to paste the text into that window with or button.
-"<Ctrl>+Enter" to store the text in memory (this closes the window automatically).
-"<Ctrl>+<Shift>+V" to paste text into proxmox web shell 
+```<Ctrl>+Enter``` to store the text in memory (this closes the window automatically).
+```<Ctrl>+<Shift>+V``` to paste text into proxmox web shell 
 
 
 The script loads the contents of the windows clipboard when the window is first displayed, and if any text has already been stored it loads the previously stored contents.
