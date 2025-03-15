@@ -1,10 +1,11 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; Global variable to store the macro textMacroText := ""
+; Global variable to store the macro 
+textMacroText := ""
 
-; Main GUI for storing macro textShowMacroInputGui() 
-{
+; Main GUI for storing macro 
+textShowMacroInputGui() {
     MacroGui := Gui()
     MacroGui.Opt("+AlwaysOnTop")
     MacroGui.Title := "Macro Text Input"
@@ -40,7 +41,9 @@
     
     ClearTextHandler(*) 
     {
-        TextInput.Value := "" ; Clear text        TextInput.Focus()     ; Set focus in text area    }
+        TextInput.Value := "" ; Clear text        
+        TextInput.Focus()     ; Set focus in text area    
+    }
     
     SaveMacroHandler(*) 
     {
