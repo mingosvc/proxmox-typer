@@ -48,8 +48,8 @@ ShowMacroInputGui()
     
     ClearTextHandler(*) 
     {
-        TextInput.Value := ""  ; Clear text
-        TextInput.Focus()      ; Set focus in text area
+        TextInput.Value := "" ; Clear text
+        TextInput.Focus()   ; Set focus in text area
     }
     
     SaveMacroHandler(*) 
@@ -91,3 +91,4 @@ TypeMacroText() {
 A_IconTip := "Text Macro Script"
 A_TrayMenu.Add("Set Macro Text (Ctrl+Shift+M)", (*) => ShowMacroInputGui())
 A_TrayMenu.Add("Type Macro Text (Ctrl+Shift+V)", (*) => TypeMacroText())
+
