@@ -19,4 +19,5 @@ You can use the buttons available in the script window, but the following keyboa
 This script loads the contents of the windows clipboard when the window is first displayed, and if any text has already been stored it loads the previously stored contents.
 
 *Autohotkey only works on Windows
+
 *This script works correctly when pasting text into the Proxmox web shell and LXCs, but does not yet work correctly when pasting text with punctuation characters into VMs.
